@@ -32,6 +32,6 @@ def create_character(name, strength, intelligence, charisma):
     chaDot = full_dot * charisma + empty_dot * (10 - charisma)
     return f"{name}\nSTR {strDot}\nINT {intDot}\nCHA {chaDot}"
 
-jodChar = create_character('JOD', 4, 2, 1)
+jodChar = create_character('shadow', 3, 3, 1)
 
 print(jodChar)
