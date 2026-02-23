@@ -79,7 +79,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/mnt/c/DATA/PC STORAGE/RHCSA/python/.venv'
+set -gx VIRTUAL_ENV '/home/soldger96/RHCSA/python/.venv'
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (string sub -s 1 -l 1 $FISH_VERSION) -lt 3

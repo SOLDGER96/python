@@ -78,7 +78,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/mnt/c/DATA/PC STORAGE/RHCSA/python/.venv'
+VIRTUAL_ENV='/home/soldger96/RHCSA/python/.venv'
 if ([ "$OSTYPE" = "cygwin" ] || [ "$OSTYPE" = "msys" ]) && $(command -v cygpath &> /dev/null) ; then
     VIRTUAL_ENV=$(cygpath -u "$VIRTUAL_ENV")
 fi
